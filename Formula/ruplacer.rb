@@ -1,9 +1,9 @@
 class Ruplacer < Formula
   desc "Find and replace text in source files"
-  homepage "https://github.com/SuperTanker/ruplacer/"
-  url "https://github.com/SuperTanker/ruplacer/archive/v0.2.3.tar.gz"
+  homepage "https://github.com/TankerHQ/ruplacer/"
+  url "https://github.com/TankerHQ/ruplacer/archive/v0.2.3.tar.gz"
   sha256 "86e4d3a63cf6db93788c86c47d1be10ae07599190232922056e18d0b3e5195df"
-  head " https://github.com/SuperTanker/ruplacer"
+  head " https://github.com/TankerHQ/ruplacer"
 
   depends_on "rust" => :build
 
