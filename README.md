@@ -25,8 +25,4 @@ cd Formula/
 brew bump-formula-pr --url=https://github.com/TankerHQ/<name>/archive/v<version>.tar.gz <name>
 ```
 
-Then you can:
-* Run `brew edit <name>`
-* Overwrite the matching file in the `Formula/` directory
-* Make a pull request with a commit message `<name> <version>`
-* Merge to the `master` branch
+Then approve and merge the generated pull request.
