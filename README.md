@@ -19,8 +19,10 @@ You can find the whole list in the [Formula directory](https://github.com/Tanker
 Run:
 
 ```
+cd Formula/
+
 # Don't forget the '=' sign after the '--url' option
-brew bump-formula-pr --url=https://github.com/TankerHQ<name>/archive/v<version>.tar.gz <name>
+brew bump-formula-pr --url=https://github.com/TankerHQ/<name>/archive/v<version>.tar.gz <name>
 ```
 
 Then you can:
