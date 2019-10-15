@@ -1,8 +1,8 @@
 class Dmenv < Formula
   desc "The stupid virtualenv manager"
   homepage "https://github.com/TankerHQ/dmenv"
-  url "https://github.com/TankerHQ/dmenv/archive/v0.16.1.tar.gz"
-  sha256 "a0dd709b60238f467e6465441b69b904e5ab7dec6f06c4ff82e6ca640991c4f1"
+  url "https://github.com/TankerHQ/dmenv/archive/v0.17.0.tar.gz"
+  sha256 "5e80f3935f5e30ffb9d42b9d7e0f0f7848577a507cf35fe49e3a807091e45328"
   head " https://github.com/TankerHQ/dmenv"
   depends_on "rust" => :build
 
